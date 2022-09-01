@@ -1,7 +1,7 @@
 # Faça um Programa que peça dois números e imprima o maior deles.
 
 print ('='*20)
-print ('='*20)
+print ('MAIOR QUE')
 print ('='*20)
 
 numero1 = float(input('digite o primeiro numero: '))
