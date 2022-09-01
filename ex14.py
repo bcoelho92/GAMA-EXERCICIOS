@@ -16,9 +16,9 @@ multa = 0
 
 if  peso > 50 : # if entao / if ":"
     excesso = (peso-50)
-    multa = excesso * 4
+    multa = excesso * 4.00
 
-print ('Peso', peso,'Kg')
+# print ('Peso', peso,'Kg')
 print ('Excesso', excesso, 'Kg')
 print ('Multa de R$', multa, )
 
