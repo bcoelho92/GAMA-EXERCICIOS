@@ -14,6 +14,8 @@ print ('')
 
 if media >= 7: print ('Você foi aprovado(a) :) sua média foi de ', media)
 elif  media == 10: print ('Você foi aprovado(a) com Distinção, sua média foi 10 Parabens!')
-elif media <= 7: print ('Você foi reprovado(a) :( sua médoa foi de ', media)
+elif media < 7: print ('Você foi reprovado(a) :( sua médoa foi de ', media)
 
+print ('')
+print ('  Fim do programa!')
 print ('='*20)

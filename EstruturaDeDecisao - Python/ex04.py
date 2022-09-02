@@ -18,6 +18,15 @@ elif letra == "o":
 elif letra == "u":
     print ('A letra', letra,'é Vogal!')
 
+
+# if not letra.isalpha():
+#    print ('Não é um caracer valido')
+# elif letra in "aeiou":
+#   print ("Vogal") 
+# else: print ('Consoante')
+
+
+
 else:
     print ('A letra',letra,'é Consoante!')
 

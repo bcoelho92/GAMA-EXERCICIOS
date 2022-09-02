@@ -8,5 +8,8 @@ numero1 = int(input('digite um numero: '))
 
 if numero1 >= 0 :
      print ('O numero',numero1,'é POSITIVO!')
+else:
+     print ('O numero ',numero1, 'é NEGATIVO!')
 
-else:print ('O numero ',numero1, 'é NEGATIVO!')
+# forma mais limpa 
+# print ('positivo' if numero > o else 'negativo')
