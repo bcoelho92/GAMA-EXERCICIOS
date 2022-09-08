@@ -1,6 +1,7 @@
 # boas vindas
 
-# Menu 
+# Menu - 
+
 #Digite a opção desejada:
 #
 #1 - 
@@ -9,16 +10,19 @@
 #4 - 
 
 
-# Variaveis 
+
+# Variaveis - (steep 1 )
 
 
 
-# 1 - Cadastro 
+# 1 - Cadastro - Julia - Bruno ( 2)
 
 
-# 2 - Vendas
 
-# 3 - Relatorio
+# 2 - Vendas - Fernando - ( 2 )
+
+
+# 3 - Relatorio ( step 3 )
 
 # 4 - Sair
 
