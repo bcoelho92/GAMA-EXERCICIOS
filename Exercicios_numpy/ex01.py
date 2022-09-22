@@ -8,6 +8,13 @@
 '''
 import numpy as np
 
+# import da biblioteca definir apelido usar "as"
+'''
+from numpy import arange 
+from numpy import reshape
+'''
+# incurtar o camando de np.arange(21,dtype=int) para arange(21,dtype=int)
+
 # 1. Crie um array 6x6 preenchido com zero.
 
 # lista = [[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]]
@@ -25,13 +32,14 @@ muda1 [2:4, 2:4] = 2
 
 # 4. Gere um segundo array 6x6 com números inteiros aleatórios entre 0 e 2.
 muda2 = np.random.randint(low=0, high=3, size=[1,6,6])
-'''
+/
 print(muda1)
 print()
 print(muda2)
 print()
-'''
+/
 # 5. Subtraia o primeiro array pelo segundo
 muda3 = muda1-muda2
 print(muda3) 
+
 

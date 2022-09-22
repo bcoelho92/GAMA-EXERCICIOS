@@ -1,0 +1,29 @@
+PANDAS - 10 minutes to pandas
+
+- https://pandas.pydata.org/docs/user_guide/10min.html
+
+
+
+BASICAMENTE UM EXCEL 
+
+DATA FRAMES - CONJUNTO DE DAODS 
+
+POS IND QTD
+1   ARROZ  3 
+
+IND DESC QTD
+1   ARROZ   3
+
+SERIES + SERIES = DATA FRAMES - CONJUNTO DE DAODS 
+
+DATA FRAME SAO CRIADOS COM DICIONARIOS {}
+
+
+
+    SERIES                  SERIES                  DATA FRAME
+IND DESC QTD     +       IND DESC QTD      =       IND DESC QTD
+1   ARROZ   3           1   ARROZ  3               1   ARROZ  6 
+2   FEIJAO  2                                      2   FEIJAO 2
+
+
+IMPORT PANDAS AS PD
