@@ -2,7 +2,7 @@
 import pandas as pd
 
 # %% Criação da séries de ingredientes
-ingredientes = [
+ingre = [
     'maisena',
     'farinha',
     'açucar',
@@ -11,7 +11,8 @@ ingredientes = [
     'castanhas'
 ]
 
-serie = pd.Series(ingredientes, name='ingredientes', dtype=object)
+# TRANFORMAR A EM UMA SEIRE. ATRIBUIR NOME A [] INGREDIENTES, DETERMINAR SEU TIPO 
+serie = pd.Series(ingre, name='ingredientes', dtype=object)
 serie
 
 # %% Criação da série de quantidades
@@ -24,7 +25,8 @@ qtd = [
     180
 ]
 
-quantidade = pd.Series(qtd, index=ingredientes, name='quantidades')
+# atribuir ingredientes como INDEX 
+quantidade = pd.Series(qtd, index=ingre, name='quantidades')
 quantidade
 
 # %% Seleção por index
@@ -37,14 +39,14 @@ quantidade[1:3]
 quantidade.astype(str) + 'g'
 # quantidade = quantidade.astype(str)
 
-# %% Operações Matemáticas com séries
+# %% Operações Matemáticas com séries *MULTIPLICA TODA SERIE POR 1.1
 quantidade * 1.1
 
-# %% Valores da série
+# %% Valores da série - visualizar valores da serie/planilha
 quantidade.values
 quantidade.values.tolist()
 
-# %% Index da série
+# %% Index da série - Posição dos itens na serie
 quantidade.index
 quantidade.index.tolist()
 
@@ -118,6 +120,8 @@ df.describe()
 #df.sort_values('quantidades', ascending = False)
 df.sort_index(ascending=False)
 
+# OPERAÇÕES E FILTROS COM PANDA
+
 # %% Operações booleanas para Séries, Arrays, e DataFrames
 # - not ~
 # - and &
@@ -137,12 +141,12 @@ filtro = ~tem_na_geladeira & maior_200
 df[filtro]
 
 # %% Funções comuns
-#max(df['quantidades'])
-#df['quantidades'].max()
-#df['quantidades'].min()
-#df['quantidades'].sum()
-#df['quantidades'].mean()
-#df['quantidades'].count()
+#max(df['quantidades'])   
+#df['quantidades'].max()  -  VALOR MAXIMO DE UMA SERIE 
+#df['quantidades'].min()  -  VALOR MINIMO DE UMA SERIE 
+#df['quantidades'].sum() -  Soma bumeros ou concatena str
+#df['quantidades'].mean() - Média !
+#df['quantidades'].count() - CONTAGEM DOS INTENS EM UMA SERIE 
 
 # %% Iteração sobre o dataframe
 for ingrediente in df['ingredientes']:

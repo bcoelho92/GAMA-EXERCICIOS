@@ -2,8 +2,20 @@ PANDAS - 10 minutes to pandas
 
 - https://pandas.pydata.org/docs/user_guide/10min.html
 
+Estados:
+['AC','AL','AP','AM','BA','CE','ES','GO','MA','MT','MS',
+'MG','PA','PB','PR','PE','PI','RJ','RN','RS','RO','RR',
+'SC','SP','SE','TO','DF']
+___________________________________________________
+
+read_csv
+Load a CSV file into a DataFrame.
+
+to_excel
+Write DataFrame to an Excel file.
 
 
+___________________________________________________
 BASICAMENTE UM EXCEL 
 
 DATA FRAMES - CONJUNTO DE DAODS 
