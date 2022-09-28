@@ -1,0 +1,191 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 9</title>
+
+    <!-- Importar arquivo CSS -->
+    <link rel="stylesheet" href="styl.css"> <!--style.css-->
+
+    <!-- criar estilo-->
+    <style>
+        /* - * Selecionar todos os elementos da pagina*/
+        * {
+            /*border: 1px solid;*/
+            border-color: rgb(11, 12, 14);
+            background-color: rgb(242, 241, 220);  
+            /*!important;*/
+        }
+
+        /* .nomeClass criar classe para style diferentes */
+        .azul {
+            color: rgb(61, 6, 6);
+            font-style: italic;
+        }
+        .centralizado{
+            text-align: center;
+        }
+        /* class="azul" - chama classe */
+
+    </style>
+
+</head>
+<body>
+
+<!-- Crie uma prova com 5 questões de multipla escolha, 5 de verdadeiro e falso e 2 questões subjetivas.-->    
+
+<form action="img/rick.jpg" method="get">
+
+<div id="Multipla">
+<h2>Questionario 1 - Multipla escolha</h2>
+<div> 
+<fieldset>
+    <legend> 1 - Quem descobriu o Brasil?</legend> <!-- BORDAS DO FORM -->
+        <input type="radio" id="radio_a" name="quest1" value="a">
+        <label for="radio_a">A - Madona</label><br>
+
+        <input type="radio" id="radio_b" name="quest1" value="questao1">
+        <label for="radio_b">B - Maria Marrua </label><br>
+        
+        <input type="radio" id="radio_c" name="quest1" value="questao1>
+        <label for="radio_c">C - Back End</label><br>
+
+        <input type="radio" id="radio_d" name="quest1" value="questao1>
+        <label for="radio_d">D - Cabral </label><br>
+</fieldset>
+</div><br>
+<div> 
+    <fieldset>
+    <legend> 2 - Qual é o personagem principal da seriado CHAVES?</legend> <!-- BORDAS DO FORM -->
+        <input type="radio" id="radio_a" name="quest2" value="a">
+        <label for="radio_a">A - Seu Madruga </label><br>
+
+        <input type="radio" id="radio_b" name="quest2" value="questao2">
+        <label for="radio_b">B - Seu Barriga </label><br>
+        
+        <input type="radio" id="radio_c" name="quest2" value="questao2>
+        <label for="radio_c">C - Chaves do 8 </label><br>
+
+        <input type="radio" id="radio_c" name="quest2" value="questao2>
+        <label for="radio_c">D - Chapolim </label><br>
+</fieldset>
+</div><br>
+<div> 
+    <fieldset>
+    <legend> 3 - Qual personagem pula em uma perno só ?</legend> <!-- BORDAS DO FORM -->
+        <input type="radio" id="radio_a" name="quest3" value="a">
+        <label for="radio_a">A - Aquaman</label><br>
+
+        <input type="radio" id="radio_b" name="quest3" value="questao3">
+        <label for="radio_b">B - Super choque </label><br>
+        
+        <input type="radio" id="radio_c" name="quest3" value="questao3">
+        <label for="radio_c">C - Naruto </label><br>
+
+        <input type="radio" id="radio_d" name="quest3" value="questao3">
+        <label for="radio_d">D - Saci </label><br>
+</fieldset>
+</div><br>
+<div> 
+    <fieldset>
+    <legend> 4 - Qual frase Daneris usa para que seu dragao queime seus inimigos ?</legend> <!-- BORDAS DO FORM -->
+        <input type="radio" id="radio_a" name="quest4" value="a">
+        <label for="radio_a">A - Foggo no parquinho!</label><br>
+
+        <input type="radio" id="radio_b" name="quest4" value="questao4">
+        <label for="radio_b">B - Fogo na bomba! </label><br>
+        
+        <input type="radio" id="radio_c" name="quest4" value="questao4">
+        <label for="radio_c">C - fire in the hole! </label><br>
+
+        <input type="radio" id="radio_d" name="quest4" value="questao4">
+        <label for="radio_d">D - Dracarys! </label><br>
+</fieldset>
+</div><br>
+<div> 
+    <fieldset>
+    <legend> 5 - Complete a frase, quem não tem cão, ...</legend> <!-- BORDAS DO FORM -->
+        <input type="radio" id="radio_a" name="quest15" value="questao5">
+        <label for="radio_a">A - dorme pelado.</label><br>
+
+        <input type="radio" id="radio_b" name="quest5" value="b">
+        <label for="radio_b">B - cai do cavalo. </label><br>
+        
+        <input type="radio" id="radio_c" name="quest5" value="questao5">
+        <label for="radio_c">C - dorme com  fome.</label><br>
+
+        <input type="radio" id="radio_d" name="quest5" value="questao5">
+        <label for="radio_d">D - caça com gato. </label><br>
+</fieldset>
+</div><br>
+</div>
+
+<div id="Verdadeiro_falso">
+<h2>Questionario 2 - Verdadeiro ou falso</h2>
+    <fieldset>
+        <h4> 1 -A capital do Brasil é São Paulo? </h4>
+        <input type="radio" id="radio_a" name="quest6" value="true">
+        <label for="radio_a">Verdadeiro</label>
+
+        <input type="radio" id="radio_b" name="quest6" value="false">
+        <label for="radio_b">Falso</label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <h4> 2 - A capital do Brasil é São Caetano?</h4>
+        <input type="radio" id="radio_a" name="quest7" value="true">
+        <label for="radio_a">Verdadeiro</label>
+
+        <input type="radio" id="radio_b" name="quest7" value="false">
+        <label for="radio_b">Falso</label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <h4> 3 - A capital do Brasil é São Roque?</h4>
+        <input type="radio" id="radio_a" name="quest8" value="true">
+        <label for="radio_a">Verdadeiro</label>
+
+        <input type="radio" id="radio_b" name="quest8" value="false">
+        <label for="radio_b">Falso</label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <h4> 4 - A capital do Brasil é Rio de janeiro?</h4>
+        <input type="radio" id="radio_a" name="quest9" value="true">
+        <label for="radio_a">Verdadeiro</label>
+
+        <input type="radio" id="radio_b" name="quest9" value="false">
+        <label for="radio_b">Falso</label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <h4> 5 - A capital do Brasil é Brasilia?</h4>
+        <input type="radio" id="radio_a" name="quest10" value="true">
+        <label for="radio_a">Verdadeiro</label>
+
+        <input type="radio" id="radio_b" name="quest10" value="false">
+        <label for="radio_b">Falso</label>
+    </fieldset>
+    <br>
+</div>
+
+<div id="Subjetivas" class="azul">
+    <h2>Questionario 2 - Questões subjetivas</h2>
+    <div> 
+        <label for="text"><b>1-Comente em poucas palavras, oque voce espera do proximo presidente.</b></label>
+        <br>
+        <textarea cols="60" rows="3"></textarea> 
+    </div>
+    <div> 
+        <label for="text"><b>2-Contenos sobre sua vida profissional, suas experiencias e um caso de sucesso:</b></label>
+        <br>
+        <textarea cols="60" rows="3"></textarea> 
+    </div>
+
+    <br>
+</div>
+
+<input type="submit" value="Enviar respostas">
+
+</form>
+</body>
+</html>
