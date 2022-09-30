@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    <form action="/cadastrar" method="get" >
+        <fieldset>
+
+            <legend> <h4>Cadastro de produtos:</h4>  </legend>
+
+            <h4><label for="">Produto: </label>
+            <input type="text"name="produto" id="campo1" placeholder="Arroz, Feijao, Batata..." required></h4>
+
+            <h4><label for="">Preço:</label>
+            <input type="nummbr"step="0.01" min="0" max="100" name="valor" id="campo2" placeholder="10,15,20,50" required></h4>
+          
+            <input type="submit" value="Cadastrar">
+            <!-- oninvalid="this.setCustomValidity('mensagem de sua preferência')" -->
+
+        </fieldset>
+    </form>
+</body>
+</html>
