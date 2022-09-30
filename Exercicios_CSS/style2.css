@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(185, 196, 228);
+    /*background: #FFFFFF url("img_css/cs.jpg") no-repeat center  fixed;*/
+    /*background-image: url("img_css/rick.jpg");*/
+    border: 2px solid rgb(212, 25, 25) ;
+ 
+}
+h2,a{
+    display: block;
+}

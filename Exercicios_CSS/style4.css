@@ -1,0 +1,20 @@
+img{
+    display: block;
+    /* margin:auto; */
+    width: 40%; /*LARGURA*/
+    height: 40; /*ALTURA*/
+    border: 5px rgb(65, 5, 5) solid;
+}
+
+a{
+    /* color: rgb(196, 224, 57); */
+    text-decoration: none;
+    /* background-color: rgb(19, 13, 90); */
+    background-image: url("img_css/buton.jpg");
+    padding: 10px;
+    border: 1px rgb(200, 220, 19) solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    color: rgb(227, 208, 33);
+}

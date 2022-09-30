@@ -1,0 +1,36 @@
+
+
+/* COR DA MARGEM DA PLANILHA VERTICAL E HORIZONTAL */
+table, th, td{
+    border: 1px solid rgb(19, 20, 19);
+}
+
+/* DEIXA A PLANILHA MAIS LIMPA - border-collapse:collapse;*/
+table{
+    border-collapse:collapse;
+}
+
+/* COR DA CELULAS */
+td {
+    border: 1px solid rgb(11, 11, 11);
+    text-align: center;
+}
+
+/* COR DA LINHA DO CABEÇALHO */
+thead{
+    padding: 0px 10px;
+    background-color: rgb(63, 50, 180);
+    color: aliceblue;
+}
+
+/* REAÇÃO AO PASSAR O CURSOR SOBRE A LINHA */
+tr:hover{
+    background-color: rgb(23, 83, 46);
+    color: aliceblue;
+}
+
+/* REAÇÃO AO SELECIONAR LINHA */
+tr:active{
+    background-color: rgb(72, 0, 255);
+    color: aliceblue;
+}
